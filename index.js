@@ -17,5 +17,5 @@ var a_b = document.querySelectorAll("ul.ranked-list li")
 }
 
 function deepestChild()  {
-  
+
 }
