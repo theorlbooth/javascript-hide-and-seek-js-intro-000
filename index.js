@@ -14,6 +14,8 @@ var a_b = document.querySelectorAll("ul.ranked-list li")
     }
 }
 
-function deepestChild()  {
-
+function deepestChild() {
+    a_a = document.getElementById("grand-node").querySelectorAll("div")
+    a_b = a_a.length
+    return a_a[a_b-1]
 }
